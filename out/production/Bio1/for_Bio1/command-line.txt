@@ -1,0 +1,31 @@
+insert 100 RNA AGGC
+insert 99 DNA CCGU
+insert 99 DNA AGGGGGGGGA
+insert 98 DNA AGAGAGAG
+insert 97 RNA ABCD
+insert 0 RNA ABC
+print 15
+print 16
+swap 16 3 15 4
+print 15
+print 16
+transcribe 5
+print
+transcribe 16
+print 16
+print 15
+swap 1 2 3 4
+insert 2 DNA AGG
+insert 3 DNA AGGC
+insert 5 RNA ACCU
+print
+remove 1
+remove 2
+print
+insert 16 DNA AGCGGCG
+insert 15 RNA AAA
+print 2
+print 15
+copy 15 2
+copy 17 15
+print 2
