@@ -2,8 +2,8 @@ package for_Bio1;
 
 public class BioSequence {
 
-    seqType type;
-    String sequence;
+    private seqType type;
+    private String sequence;
 
     public seqType getType(){
         return this.type;
